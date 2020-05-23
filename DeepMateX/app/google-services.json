@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "322652708646",
+    "firebase_url": "https://deepmatex.firebaseio.com",
+    "project_id": "deepmatex",
+    "storage_bucket": "deepmatex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322652708646:android:0ad4c6ce322771f0d0ebe7",
+        "android_client_info": {
+          "package_name": "com.example.deepmatex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322652708646-5tmn2qd118368eqof4cg77c3buqk27fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbb1yUly4RMh16KRCHBR_ZjWWPLFBwAp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322652708646-5tmn2qd118368eqof4cg77c3buqk27fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
