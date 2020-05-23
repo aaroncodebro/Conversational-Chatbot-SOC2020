@@ -226,10 +226,7 @@ model.load_weights(os.path.join(os.path.dirname(__file__),"model256.h5"))
 # root
 @app.route("/")
 def index():
-    """
-    this is a root dir of my server
-    :return: str
-    """
+    
     return "This is root!!!!"
 
 
@@ -237,11 +234,7 @@ def index():
 
 @app.route('/reply/<query>')
 def reply_user(query):
-    """
-    this serves as a demo purpose
-    :param user:
-    :return: str
-    """
+    
     reply = model.reply(query)
     
     return {'reply':reply}
